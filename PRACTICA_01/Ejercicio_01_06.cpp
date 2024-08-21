@@ -15,7 +15,7 @@ int main() {
     cout << "Introduce el segundo número: ";
     cin >> num2;
 
-    for (int i = 1; i < num1; i++) {
+    for (int i = 1; i < num1; i++) { // Calcula la suma de los divisores de num1
         if (num1 % i == 0) {
             suma += i;
         }

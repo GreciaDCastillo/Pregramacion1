@@ -12,7 +12,7 @@ int main() {
     cout << "Introduce un número: ";
     cin >> num;
     while (num > 0) {
-        num = num / 10;
+        num = num / 10; // Divide el número por 10 hasta que no queden dígitos
         digitos++;
     }
     cout << "La cantidad de dígitos es: " << digitos << endl;

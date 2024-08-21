@@ -7,11 +7,12 @@
 #include <iostream>
 using namespace std;
 
+// Se creo un menu para que el usuario elija el mes
 int main() {
     int mes;
-    cout << "Introduce el mes: ";
+    cout << "Introduce el mes: "; 
     cin >> mes;
-    switch (mes) {
+    switch (mes) { 
         case 1:
             cout << "Enero" << endl;
             break;

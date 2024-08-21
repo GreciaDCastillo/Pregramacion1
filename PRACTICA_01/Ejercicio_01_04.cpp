@@ -11,7 +11,7 @@ int main() {
     int gradosC;
     cout << "Introduce los grados centigrados: ";
     cin >> gradosC;
-    float gradosK = (gradosC + 273.15);
+    float gradosK = (gradosC + 273.15); // K = C + 273.15
     cout << "Los grados kelvin son: " << gradosK << endl;
     return 0;
 }

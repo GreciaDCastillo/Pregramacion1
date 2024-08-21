@@ -16,8 +16,8 @@ int main() {
 
     int suma = 0;
 
-    for (int i = 0; i < num2; i++) {
-        suma += num1;
+    for (int i = 0; i < num2; i++) { 
+        suma += num1; // Calcula la suma de los divisores de num1 con el bucle for del num2
     }
     cout << num1 << " * " << num2 << " = " << suma << endl;
     return 0;

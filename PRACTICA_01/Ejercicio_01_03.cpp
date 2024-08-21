@@ -10,11 +10,11 @@ using namespace std;
 int main() {
     int practicas, laboratorio, examen;
     float promedio;
-    cout << "Introduce las calificaciones de las notas: "<< endl;
+    cout << "Introduce las calificaciones de las notas: "<< endl; 
     cout << "Practicas: "; cin >> practicas;
     cout << "Laboratorio: "; cin >> laboratorio;
     cout << "Examen: "; cin >> examen;
-    promedio = (practicas + laboratorio + examen) / 3;
-    cout << "El promedio de las 3 notas es: " << promedio << endl;
+    promedio = (practicas + laboratorio + examen) / 3; 
+    cout << "El promedio de las 3 notas es: " << promedio << endl; 
     return 0;
 }

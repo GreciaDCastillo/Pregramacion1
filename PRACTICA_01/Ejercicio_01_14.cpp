@@ -15,9 +15,9 @@ int main() {
     for (int i = 1; i <= numero; i++) {
         int aux = 0;
         for (int j = i; j > 0; j--) {
-            aux +=factorial;
+            aux +=factorial; // Simula factorial de i
         }
-        factorial = aux;
+        factorial = aux; // Actualiza factorial
     }
     cout << "Factorial de " << numero << " es: " << factorial;
 

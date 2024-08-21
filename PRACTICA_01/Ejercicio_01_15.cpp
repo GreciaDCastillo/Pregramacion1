@@ -11,14 +11,14 @@ int main() {
     int numero;
     cout << "Introduce un número: ";
     cin >> numero;
-    for (int i = 1; i <= numero; i++) {
-        for (int j = 1; j <= i; j++) {
+    for (int i = 1; i <= numero; i++) { // Imprime la altura de la piramide.
+        for (int j = 1; j <= i; j++) { // Imprime la secuencia normal.
             cout << j << " ";
         }
-        for (int k = i - 1; k >= 1; k--) {
+        for (int k = i - 1; k >= 1; k--) { //Imprime la secuencia inversa.
             cout << k << " ";
         }
-        cout << endl;
+        cout << endl; 
     }
     return 0;
 }

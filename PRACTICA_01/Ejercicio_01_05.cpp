@@ -11,7 +11,7 @@ int main() {
     int numero;
     cout << "Introduce un número: ";
     cin >> numero;
-    for (int i = 2; i < numero; i++) {
+    for (int i = 2; i < numero; i++) { // i = 2 ya que 1 no es un número primo
         if (numero % i == 0) {
             cout << numero << " no es un número primo." << endl;
             return 0;

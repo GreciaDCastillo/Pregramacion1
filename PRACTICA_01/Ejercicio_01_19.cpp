@@ -22,12 +22,12 @@ int main() {
         case 1:
             cout << "Introduce el tiempo en días: ";
             cin >> dias;
-            segundos = dias * 86400; 
+            segundos = dias * 86400; // 1 día = 86400 segundos
             break;
         case 2:
             cout << "Introduce el tiempo en horas: ";
             cin >> horas;
-            segundos = horas * 3600; 
+            segundos = horas * 3600; // 1 hora = 3600 segundos
             break;
         case 3:
             cout << "Introduce el tiempo en minutos: ";

@@ -10,12 +10,12 @@ using namespace std;
 int main() {
     char letra;
     cout << "Introduce una letra: ";
-    cin >> letra;
+    cin >> letra; // Le pedimos al usuario que ingrese una letra
     if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
         cout << "La letra es una vocal." << endl;
-    } else if (letra >= 'a' && letra <= 'z') {
+    } else if (letra >= 'a' && letra <= 'z') { // Definimos si la letra es una consonante.
         cout << "La letra es una consonante." << endl;
-    } else {
+    } else { 
         cout << "La letra no es una vocal ni una consonante." << endl;
     }
     return 0;

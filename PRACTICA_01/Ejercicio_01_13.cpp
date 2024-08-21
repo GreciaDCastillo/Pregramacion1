@@ -12,7 +12,7 @@ int main() {
     cout << "Introduce un número: ";
     cin >> num;
     while (num > 0) {
-        cout << num % 10 << " ";
+        cout << num % 10 << " "; // Imprime las cifras al reves
         num /= 10;
     }
     return 0;

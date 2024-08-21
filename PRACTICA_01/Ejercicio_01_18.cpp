@@ -13,6 +13,8 @@ int main() {
     cin >> numero;
 
     original = numero;
+
+    //Contar el número de digitos
     int aux = numero;
     int numDigitos = 0;
 
@@ -20,7 +22,7 @@ int main() {
         numDigitos++;
         aux /= 10;
     }
-
+    // Calcular la suma de los dígitos elevados a la potencia del número de dígitos
     while (numero > 0) {
         int digito = numero % 10;
         int potencia = 1;

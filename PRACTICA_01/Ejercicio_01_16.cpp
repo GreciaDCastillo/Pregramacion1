@@ -11,8 +11,8 @@ int main() {
     int numero;
     cout << "Introduce un número: ";
     cin >> numero;
-    for (int i = 1; i <= numero; i++) {
-        if (i % 3 == 0 && i % 5 == 0) {
+    for (int i = 1; i <= numero; i++) { 
+        if (i % 3 == 0 && i % 5 == 0) { // Multiplo de 3 y 5
             cout << "z" << endl;
         } else if (i % 3 == 0) {
             cout << "x" << endl;
