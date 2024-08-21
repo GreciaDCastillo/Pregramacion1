@@ -1,7 +1,7 @@
 // Materia: Programación I, Paralelo 4
 // Autor: Grecia Daniela Castillo Ali
 // Fecha creación: 18/08/2024
-// Número de ejercicio: 1
+// Número de ejercicio: 7
 // Problema planteado: Ingreso de meses.
 
 #include <iostream>
