@@ -34,7 +34,6 @@ int digitosIguales(int num){
 
     //Extraer los dígitos
     int d1 = num / 1000;
-    int d2 = (num / 100) % 10;
     int d3 = (num / 10) % 10;
     int d4 = num % 10;
 
