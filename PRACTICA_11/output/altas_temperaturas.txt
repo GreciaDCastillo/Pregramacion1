@@ -1,0 +1,4 @@
+Madrid 32.5
+Sevilla 34.2
+Valenvia 31
+Malaga 36.5

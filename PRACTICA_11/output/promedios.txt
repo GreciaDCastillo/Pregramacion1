@@ -1,0 +1,4 @@
+Juan 86.25
+Maria 84.25
+Carlos 81
+Anna 64.5

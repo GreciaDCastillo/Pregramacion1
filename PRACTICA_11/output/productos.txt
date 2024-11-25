@@ -1,0 +1,3 @@
+Manzana 1.50
+Platano 0.80
+Naranja 2.00

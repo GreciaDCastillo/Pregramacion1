@@ -1,0 +1,4 @@
+Anna,15,89
+Alan,16,50
+Ernesto ,18,80
+Juan,15,56
